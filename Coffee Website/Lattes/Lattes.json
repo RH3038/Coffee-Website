@@ -1,0 +1,17 @@
+{"items":[
+  {
+    "image":"GreenLatte.jpeg",
+    "title":"Green Latte",
+    "price":"Price: 3.50"
+  },
+  {
+    "image":"LavenderLatte.jpg",
+    "title":"Lavender Latte",
+    "price":"Price: 3.60"
+  },
+  {
+    "image":"CharcoalLatte.jpg",
+    "title":"Charcoal Latte",
+    "price":"Price: 3.75"
+  }
+]}

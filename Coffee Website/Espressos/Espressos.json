@@ -1,0 +1,17 @@
+{"items":[
+  {
+    "image":"MilkEspresso.jpg",
+    "title":"Milk Espresso",
+    "price":"Price: 3.75"
+  },
+  {
+    "image":"WaterEspresso.jpg",
+    "title":"Water Espresso",
+    "price":"Price: 3.00"
+  },
+  {
+    "image":"BlackEspresso.jpg",
+    "title":"Black Espresso",
+    "price":"Price: 2.75"
+  }
+]}

@@ -1,0 +1,36 @@
+body{
+    background-color:#1F1F1F
+}
+.neat-slider{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    position:relative;
+    display:flex;
+    justify-content:space-between;
+    align-items:center
+}
+.neat-slider .ns-image-container{
+     position:relative;
+     width:100%;
+     height:100%;
+     overflow:hidden
+}
+.neat-slider .ns-image-container img{
+     width:100%;
+     height:auto;
+     display:none;
+     border-radius:1rem
+}
+.neat-slider .ns-image-container img.active{
+     display:block
+}
+.neat-slider .arrow{
+     margin:0 1rem;
+     cursor:pointer;
+     font-size:2.5rem;
+     color:#EAEAEA
+}
+.neat-slider .arrow:hover{
+     color:#ECA364
+}

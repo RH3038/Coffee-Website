@@ -1,0 +1,17 @@
+{"items":[
+  {
+    "image":"ChocoChip.jpg",
+    "title":"Chocolate Chip",
+    "price":"Price: 0.99"
+  },
+  {
+    "image":"SugarCookie.jpg",
+    "title":"Sugar Cookie",
+    "price":"Price: 1.25"
+  },
+  {
+    "image":"RockyRoad.jpg",
+    "title":"Rocky Road Cookie",
+    "price":"Price: 1.50"
+  }
+]}

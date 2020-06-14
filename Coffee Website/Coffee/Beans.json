@@ -1,0 +1,17 @@
+{"items":[
+  {
+    "image":"DarkRoast.jpg",
+    "title":"Dark Roast",
+    "price":"Price: 1.75"
+  },
+  {
+    "image":"MediumRoast.jpg",
+    "title":"Medium Roast",
+    "price":"Price: 2.00"
+  },
+  {
+    "image":"LightRoast.jpg",
+    "title":"Light Roast",
+    "price":"Price: 2.50"
+  }
+]}
