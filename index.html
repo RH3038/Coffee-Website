@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bunny's Cafe</title>
+		<meta name="description" content="Bunny's Cafe">
+		<meta charset="UTF-8">
+
+		<link rel="stylesheet" href="image-carousel-neat/neat-slider/neat-slider.css">
+		<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+		<script src="https://code.jquery.com/jquery-3.4.0.slim.min.js"></script>
+		<script src="image-carousel-neat/neat-slider/neat-slider.js"></script>
+
+		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3"></script>
+
+		<link rel="stylesheet" type="text/css" href="BunnysCafe.css">
+		<script type="text/javascript" src="BunnysCafe.js"></script>
+
+	</head>
+
+	<body>
+		<header>
+			<h1 id="head">Bunny's Cafe</h1>
+		</header>
+		<form class="example" action="/action_page.php">
+			<input type="text" placeholder="Search..." name="search2">
+			<button type="submit"><i class="fa fa-search"></i></button>
+		</form>
+		<main>
+<!-- **************************************************** Menu Bar *********************************************************** -->
+			<nav>
+				<ul>
+					<li>
+						<a aria-label = "Main Tab" href="https://rhampt14@webpages.uncc.edu/rhampt14/Labs/Project/MainPage/BunnysCafe.html#">Home</a>
+					</li>
+					<li>
+						<a aria-label = "Coffee Tab" href="https://rhampt14@webpages.uncc.edu/rhampt14/Labs/Project/Coffee/Coffee.html#">Coffees</a>
+					</li>
+					<li>
+						<a aria-label = "Espresso Tab" href="https://rhampt14@webpages.uncc.edu/rhampt14/Labs/Project/Espressos/Espressos.html#">Espressos</a>
+					</li>
+					<li>
+						<a aria-label = "Cookie Tab" href="https://rhampt14@webpages.uncc.edu/rhampt14/Labs/Project/Cookies/Cookies.html#">Cookies</a>
+					</li>
+					<li>
+						<a aria-label = "Tea Tab" href="https://rhampt14@webpages.uncc.edu/rhampt14/Labs/Project/Teas/Teas.html#">Teas</a>
+					</li>
+					<li>
+						<a aria-label = "Latte Tab" href="https://rhampt14@webpages.uncc.edu/rhampt14/Labs/Project/Lattes/Lattes.html#">Lattes</a>
+					</li>
+					<li>
+						<a aria-label = "About Tab" href="https://rhampt14@webpages.uncc.edu/rhampt14/Labs/Project/AboutUs/AboutUs.html">About us</a>
+					</li>
+				</ul>
+			</nav>
+
+
+<!-- **************************************************** Slideshow *********************************************************** -->
+			<br>
+			<div class="neat-slider">
+				<!-- Previous image arrow -->
+				<span class="[ lnr lnr-chevron-left-circle ] arrow" id="prev" alt="Previous"></span>
+
+				<!-- Image container -->
+				<div class="ns-image-container">
+					<img src="coffee.jpg">
+					<img src="latte.jpg">
+					<img src="mocha.jpg">
+				</div>
+
+				<!-- Next image arrow -->
+				<span class="[ lnr lnr-chevron-right-circle ] arrow" id="next" alt="Next"></span>
+
+				<!-- Dot navigation -->
+				<div class="dotnav"></div>
+			</div>
+
+			<br><br><br>
+		</main>
+
+		<footer>
+			<p>@Copyright: Bunny's Coffee Shop inc.</p>
+		</footer>
+
+	</body>
+</html>
